@@ -11,13 +11,22 @@
     tools:context="software.ram.com.butterknifedemo.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="wellcome to ButterKnife Demo"
-        android:id="@+id/welcome_textview"/>
+        android:id="@+id/welcome_textview"
+        android:layout_marginTop="10dp"/>
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="wellcome to ButterKnife Demo"
-        android:id="@+id/welcome_textview1"/>
+        android:id="@+id/Welcome_subText"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/welcome_textview"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Welcome_subText"
+        android:id="@+id/simple_button"
+        android:layout_marginTop="20dp"
+        android:background="@color/buttonBackgroundColor"
+        android:textColor="@color/whiteColor"/>
 </RelativeLayout>

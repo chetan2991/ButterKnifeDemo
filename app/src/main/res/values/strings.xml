@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">ButterknifeDemo</string>
+    <string name="button_text">ButterknifeDemo Just Click</string>
+    <string name="welcome_subtext">It is Just Demo</string>
+    <string name="welcome_text">Welcome To ButterKnife Demo</string>
 </resources>
