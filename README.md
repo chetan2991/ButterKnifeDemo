@@ -8,6 +8,7 @@ this project demostarate how to use latest version of ButterKnife libarary.
     Eliminate anonymous inner-classes for listeners by annotating methods with @OnClick and others.
     Eliminate resource lookups by using resource annotations on fields.
     
+    
 Requirements/Utilities
 
 buld.gradle for app look like this.
